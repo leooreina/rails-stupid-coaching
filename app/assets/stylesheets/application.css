@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+
+.container {
+  padding-left: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@import url('./questions.scss');

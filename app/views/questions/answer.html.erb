@@ -1,0 +1,23 @@
+<div class="blocknote">
+  <p>
+    <%= @formatted_question %>
+  </p>
+  <p>
+    <em>
+    - You
+    </em>
+  </p>
+</div>
+<div class="blocknote asnwer">
+  <p>
+    <strong>
+      <%= @formatted_asnwer %>
+    </strong>
+  </p>
+  <p>
+    <em>
+      - Your coach
+    </em>
+  </p>
+</div>
+<%= link_to("Ask a new question", ask_path, class: 'link') %>
